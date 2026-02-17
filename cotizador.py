@@ -31,7 +31,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Tarifa global ---
-tarifa_global = st.number_input("💵 Tarifa por hora (COP):", min_value=0.0, value=83000.0, step=1000.0, format="%0.0f")
+tarifa_global = st.number_input("💵 Tarifa por hora (COP):", min_value=0.0, value=70386.55, step=1000.0, format="%0.0f")
 st.markdown(f"**💰 HORA MANO DE OBRA ACTUAL: ${tarifa_global:,.0f} COP**")
 
 # --- Cargar Excel ---
